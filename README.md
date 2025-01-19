@@ -27,6 +27,8 @@ projectroll --module=2 --path=C:\Anywhere\.suo --command="cmd /c start calc.exe"
 ```
 Opens calc.exe when the user opens project.
 
+Btw i added noob version that is easier to use, you can use it by just opening the .exe and it will ask you the parameters as well :p
+
 ## Credits
 The vulnerability has been discovered by cjm00n & edwardzpeng (https://x.com/edwardzpeng)
 
