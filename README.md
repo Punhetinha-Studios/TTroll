@@ -4,19 +4,17 @@
 
 ## Features
 
-### 1. **PreBuildEvent**
-Executes arbitrary commands before project compilation.
-```xml
-<PreBuildEvent>
-    <Command>
-    cmd /c calc
-    </Command>
-</PreBuildEvent>
+### 1. **Using triggers**
+
+Executes arbitrary commands with when the specified input trigger is activated (ex: `GetFrameworkPaths`, `Compile`, `BeforeBuild`)
+
+(CLI) Example of **Module 1 (Project)** usage: 
 ```
-```xml
-<Target Name="GetFrameworkPaths">
-    <Exec Command="calc.exe"/>
-</Target>
+projectroll --module=1 --path=C:\Anywhere\Project**.csproj** --trigger=Compile --command="start calc.exe" --ps=false <-- Opens calc.exe when the user compiles project.
+```
+(CLI) Example of **Module 2 (Compiled Suo)** usage:
+```
+projectroll --module=2 --path=C:\Anywhere\**.suo** --command="cmd /c start calc.exe" <-- Opens calc.exe when the user compiles project.
 ```
 
 ## Credits
