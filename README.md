@@ -13,6 +13,8 @@ Executes arbitrary commands with when the specified input trigger is activated (
 projectroll --module=1 --path=C:\Anywhere\Project**.csproj** --trigger=Compile --command="start calc.exe" --ps=false
 ```
 Opens calc.exe when the user compiles project.
+
+### 2. **Using compiled .suo**
 (CLI) Example of **Module 2 (Compiled Suo)** usage:
 ```
 projectroll --module=2 --path=C:\Anywhere\.suo --command="cmd /c start calc.exe"
