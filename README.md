@@ -32,4 +32,4 @@ Opens calc.exe when the user opens project.
 ## Credits
 The vulnerability has been discovered by cjm00n & edwardzpeng (https://x.com/edwardzpeng)
 
-VisualStudio .suo deserialization exploit - https://github.com/moom825/visualstudio-suo-exploit
+VS.DE Visual Studio .suo Deserialization Exploit - https://github.com/moom825/visualstudio-suo-exploit
