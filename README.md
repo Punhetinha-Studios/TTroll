@@ -1,6 +1,6 @@
-# Projectroll
+# TTroll
 
-**Projectroll** exploits vulnerabilities in Visual Studio triggers, targeting project files like `.sln` and `.vcxproj`/`.csproj`. It demonstrates how arbitrary commands can be executed without compilation.
+**TTroll** exploits vulnerabilities in Visual Studio triggers, targeting project files like `.sln` and `.vcxproj`/`.csproj`.
 
 ## Features
 
