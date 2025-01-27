@@ -1,6 +1,6 @@
 # Projectroll
 
-**Projectroll** exploits vulnerabilities in Visual Studio triggers, targeting project files like `.sln` and `.vcxproj`/`.csproj`. It demonstrates how arbitrary commands can be executed without compilation, revealing security risks in the development environment.
+**Projectroll** exploits vulnerabilities in Visual Studio triggers, targeting project files like `.sln` and `.vcxproj`/`.csproj`. It demonstrates how arbitrary commands can be executed without compilation.
 
 ## Features
 
