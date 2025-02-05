@@ -8,18 +8,18 @@
 
 Executes arbitrary commands when the specified input trigger is activated (ex: `GetFrameworkPaths`, `Compile`, `BeforeBuild`)
 
-#### ⚠️ WARNING: Deleting the lines which contains the modified XML will break it.
+#### WARNING: Deleting the lines which contains the modified XML will break it.
 
 (CLI) Example of **Module 1 (Project)** usage: 
 ```
-projectroll --module=1 --path=C:\Anywhere\Project**.csproj** --trigger=Compile --command="start calc.exe" --ps=false
+projectroll --module=1 --path=C:\Anywhere\Project.csproj --trigger=Compile --command="start calc.exe" --ps=false
 ```
 Opens calc.exe when the user compiles project.
 
 ### 2. **Using compiled .suo**
 Executes arbitrary commands when user opens project.
 
-#### ⚠️ WARNING: Deleting the .vs folder/.suo file will break it.
+#### WARNING: Deleting the .vs folder/.suo file will break it.
 
 (CLI) Example of **Module 2 (Compiled Suo)** usage:
 ```
