@@ -1,10 +1,10 @@
-# TTroll
+# VS.VULN
 
-**TTroll** exploits vulnerabilities in Visual Studio triggers, targeting project files like `.sln` and `.vcxproj`/`.csproj`.
+**VS.VULN** exploits vulnerabilities in Visual Studio triggers, targeting Visual Studio project files like `.vcxproj`, `.csproj`, etc.
 
 ## Features
 
-### 1. **Using triggers**
+### 1. **Using Events**
 
 Executes arbitrary commands when the specified input trigger is activated (ex: `GetFrameworkPaths`, `Compile`, `BeforeBuild`)
 
@@ -12,7 +12,7 @@ Executes arbitrary commands when the specified input trigger is activated (ex: `
 
 (CLI) Example of **Module 1 (Project)** usage: 
 ```
-projectroll --module=1 --path=C:\Anywhere\Project.csproj --trigger=Compile --command="start calc.exe" --ps=false
+vsvuln --module=1 --path=C:\Anywhere\Project.csproj --trigger=Compile --command="start calc.exe" --ps=false
 ```
 Opens calc.exe when the user compiles project.
 
@@ -23,7 +23,7 @@ Executes arbitrary commands when user opens project.
 
 (CLI) Example of **Module 2 (Compiled Suo)** usage:
 ```
-projectroll --module=2 --path=C:\Anywhere\.suo --command="cmd /c start calc.exe"
+vsvuln --module=2 --path=C:\Anywhere\.suo --command="cmd /c start calc.exe"
 ```
 Opens calc.exe when the user opens project.
 
