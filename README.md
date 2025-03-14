@@ -1,6 +1,6 @@
 # VS.VULN
 
-**VS.VULN** exploits vulnerabilities in Visual Studio triggers, targeting Visual Studio project files like `.vcxproj`, `.csproj`, etc.
+**VS.VULN** exploits vulnerabilities in Visual Studio events, targeting project files like `.vcxproj`, `.csproj`, etc.
 
 ## Features
 
